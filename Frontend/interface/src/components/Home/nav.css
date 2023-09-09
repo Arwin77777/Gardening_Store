@@ -1,0 +1,128 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0.1px 0.1px 3px 0.1px rgb(183, 183, 183);
+  }
+  
+  .search {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 15%;
+}
+
+.per
+{
+  margin-left: -10px;
+}
+
+.s-bt
+{
+  border: none;
+  background-color: white;
+}
+
+.search input[type="text"] {
+  width: 380px;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  transition: ease-out 0.5s;
+}
+
+.search input[type="text"]:hover{
+    transform: scale(1);
+    border: 3px solid green;
+}
+
+
+.bi.bi-search
+{
+    margin-left: 5px;
+}
+  
+  .form-control {
+    height: calc(100% - 20px);
+    border: none;
+  }
+  
+  .input-group-text {
+    background-color: white;
+  }
+  
+  .fas.fa-search {
+    color: rgb(0, 0, 0);
+  }
+  
+  .name {
+    text-decoration: none;
+    margin-left: 20px;
+    color: green;
+  }
+  
+  .name:hover {
+    text-decoration: none;
+  }
+  
+  .ac-ic,
+  .cart-im,
+  .wishlist-im {
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+  }
+  
+  .nav-profile-name {
+    margin-left: -20px;
+  }
+  
+  .sell-p {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .sell-p:hover {
+    text-decoration: none;
+    color: green;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      flex-wrap: wrap;
+      height: 400px;
+      padding: 10px 0;
+      justify-content: center;
+      align-items:center
+      }
+    
+     .name{
+       order:-5
+     }
+     
+     .search{
+        margin-left: 0px;
+        width: 100%;
+       order:-2
+     }
+     
+     .sell-p{
+       order:-3
+     }
+     
+     .nav-profile-name{
+       order:-2
+     }
+     
+     .icons-link{
+       order:-3
+     }  
+  }
+  
